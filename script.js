@@ -70,8 +70,8 @@ const gameReady = () => {
         const compSel = select[n]
         
         // set the img back to rock image
-        player.src = `./libs/img/rock.png`
-        computer.src = `./libs/img/rock.png`
+        player.src = `rock.png`
+        computer.src = `rock.png`
 
         // set the width to 175 since not all image have same size
         player.style.width = '175px'
@@ -97,8 +97,8 @@ const gameReady = () => {
           }
 
           // set the image to the selection option
-          player.src = `./libs/img/${playerSel}.png`
-          computer.src = `./libs/img/${compSel}.png`
+          player.src = `${playerSel}.png`
+          computer.src = `${compSel}.png`
 
           // put back the pointer events after running
           btn.forEach(b => {
